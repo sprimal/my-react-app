@@ -3,7 +3,9 @@
 // import Cars from './Cars.jsx';
 // import Card from './Card.jsx';
 // import Button from './Button.jsx';
-import Student from "./Student.jsx";
+// import Student from "./Student.jsx";
+import UserGreeting from "./UserGreeting.jsx";
+
 
 function App() {
   return (
@@ -19,14 +21,20 @@ function App() {
     // <Card />
     // </>
     // <Button />
-    <>
-        <Student name= "swoumya" age={19} isStudent={true} />
-        <Student name="nirmal" age={21} isStudent={true} />
-        <Student name="aayush" age={20} isStudent={false} />
-        <Student name="rohit" age={22} isStudent={true} />
-        <Student name="kabin" age={22} isStudent={true} />
-        <Student/>
-    </> 
+
+        //<>
+        // <Student name= "swoumya" age={19} isStudent={true} />
+        // <Student name="nirmal" age={21} isStudent={true} />
+        // <Student name="aayush" age={20} isStudent={false} />
+        // <Student name="rohit" age={22} isStudent={true} />
+        // <Student name="kabin" age={22} isStudent={true} />
+        // <Student/>
+        //</>
+        <>
+      <UserGreeting isLoggedIn={true} username= "swoumya" />
+      <UserGreeting isLoggedIn= {true} />
+      
+    </>
   );
 }
 

@@ -58,7 +58,7 @@ img {
     background-color: #45a049;
 } */
 
-body {
+/* body {
     color: white;
     background-color: black;
 }
@@ -69,4 +69,16 @@ body {
     padding: 10px;
     border: 2px solid white;
 
+} */
+
+.hijru-boy {
+    background-color: green;
+}
+
+.deepak1 {
+    background-color: red;
+}
+
+body {
+    background-color: black;
 }
