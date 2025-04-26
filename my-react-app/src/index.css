@@ -40,9 +40,7 @@ img {
 }
     */
 
-body {
-    background-color: black;
-}
+
 
 /* Button.css */
 /* .button {
@@ -59,3 +57,16 @@ body {
 .button:hover {
     background-color: #45a049;
 } */
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.Student {
+    font-family: 'poppins', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 2px solid white;
+
+}
