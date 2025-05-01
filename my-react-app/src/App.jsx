@@ -2,11 +2,13 @@
 // import Footer from './FOOTER.JSX';
 // import Cars from './Cars.jsx';
 // import Card from './Card.jsx';
-import Button from './Button.jsx';
+// import Button from './Button.jsx';
 // import Student from "./Student.jsx";
 // import UserGreeting from "./UserGreeting.jsx";
 // import List from './List.jsx'
-import ProfilePicture from './ProfilePicture.jsx';
+// import ProfilePicture from './ProfilePicture.jsx';
+// import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 
 function App() {
@@ -54,7 +56,11 @@ function App() {
       <List items={bikes} category="bikes"/> */}
 
         {/* <Button /> */}
-        <ProfilePicture />
+        {/* <ProfilePicture /> */}
+         {/* <MyComponent /> */}
+       <Counter />
+
+
          
       </>);
       
